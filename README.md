@@ -28,4 +28,4 @@ For example, if the repository is `MODAL-UNINA/TrustFL-SIS`, the URL will be:
 
 `https://modal-unina.github.io/TrustFL-SIS/`
 
-- `icdm2026-logo.svg` — local visible ICDM 2026 banner/logo used in the hero section
+- `icdm2026-logo.png` — official ICDM 2026 logo provided by the user
