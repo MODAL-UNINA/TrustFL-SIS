@@ -139,10 +139,28 @@ a {
 .hero-grid {
   position: relative;
   display: grid;
-  grid-template-columns: minmax(0, 1.25fr) 0.75fr;
-  gap: 44px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 32px;
   align-items: center;
   padding: 84px 0 72px;
+}
+
+.conference-logo-wrap {
+  display: inline-flex;
+  align-items: center;
+  max-width: min(100%, 460px);
+  margin-bottom: 22px;
+  padding: 14px 18px;
+  background: rgba(255, 255, 255, 0.78);
+  border: 1px solid rgba(219, 227, 239, 0.92);
+  border-radius: 18px;
+  box-shadow: 0 12px 32px rgba(16, 35, 63, 0.08);
+}
+
+.conference-logo {
+  display: block;
+  max-width: 100%;
+  height: auto;
 }
 
 .eyebrow,
@@ -185,7 +203,7 @@ h3 {
 }
 
 .lead {
-  max-width: 740px;
+  max-width: 860px;
   color: var(--muted-text);
   font-size: clamp(1.08rem, 2.2vw, 1.32rem);
 }
