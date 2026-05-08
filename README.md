@@ -27,3 +27,5 @@ The site will normally be available at:
 For example, if the repository is `MODAL-UNINA/TrustFL-SIS`, the URL will be:
 
 `https://modal-unina.github.io/TrustFL-SIS/`
+
+- `icdm2026-logo.svg` — local visible ICDM 2026 banner/logo used in the hero section

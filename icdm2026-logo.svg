@@ -1,0 +1,12 @@
+<svg width="760" height="168" viewBox="0 0 760 168" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+<title id="title">IEEE ICDM 2026</title>
+<desc id="desc">Local conference logo banner for IEEE International Conference on Data Mining 2026</desc>
+<rect width="760" height="168" rx="28" fill="#FFFFFF"/>
+<rect x="1" y="1" width="758" height="166" rx="27" stroke="#D8E2F0" stroke-width="2"/>
+<circle cx="78" cy="84" r="46" fill="#0B4F8A"/>
+<path d="M52 86C52 64.5 67 49 88 49C99 49 108 53 115 60L104 73C100 68 95 66 89 66C79 66 71 74 71 86C71 98 79 106 90 106C97 106 103 103 107 98L118 111C111 119 101 123 89 123C67 123 52 107.5 52 86Z" fill="white"/>
+<path d="M102 44L129 84L102 124" stroke="#39B7AA" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="154" y="68" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="800" fill="#10233F">IEEE ICDM 2026</text>
+<text x="154" y="104" font-family="Arial, Helvetica, sans-serif" font-size="21" font-weight="700" fill="#0B4F8A">International Conference on Data Mining</text>
+<text x="154" y="132" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="500" fill="#5D6A7D">TrustFL-SIS Workshop</text>
+</svg>
