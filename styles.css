@@ -148,8 +148,7 @@ a {
 .conference-logo-wrap {
   display: inline-flex;
   align-items: center;
-  width: 100%;
-  max-width: 760px;
+  max-width: min(100%, 460px);
   margin-bottom: 22px;
   padding: 14px 18px;
   background: rgba(255, 255, 255, 0.78);
@@ -160,8 +159,7 @@ a {
 
 .conference-logo {
   display: block;
-  width: 100%;
-  max-width: 760px;
+  max-width: 100%;
   height: auto;
 }
 
