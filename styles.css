@@ -573,44 +573,22 @@ h3 {
   color: var(--primary);
 }
 
-
 /* =========================================================
    HTAS SUPPORT
    ========================================================= */
 
 .htas-support {
-  margin: 2rem auto 2.2rem;
+  margin: 2rem auto 2.4rem;
   text-align: center;
 }
 
 .htas-support .section-label {
-  margin-bottom: 0.9rem;
+  margin-bottom: 1rem;
   color: #ffffff;
 }
 
 .htas-link {
   display: inline-block;
-  text-decoration: none;
-}
-
-/* =========================================================
-   HTAS SUPPORT
-   ========================================================= */
-
-.htas-support {
-  margin: 2rem auto 2.2rem;
-  text-align: center;
-}
-
-.htas-support .section-label {
-  margin-bottom: 0.9rem;
-  color: #ffffff;
-}
-
-.htas-link {
-  display: inline-flex;
-  flex-direction: column;
-  align-items: center;
   text-decoration: none;
 }
 
@@ -623,22 +601,9 @@ h3 {
   transition: opacity 0.2s ease;
 }
 
-.htas-name {
-  display: block;
-  max-width: 620px;
-  margin-top: 12px;
-  color: rgba(255, 255, 255, 0.88);
-  font-size: 0.95rem;
-  font-weight: 650;
-  line-height: 1.45;
+.htas-link:hover .htas-logo {
+  opacity: 0.92;
 }
-
-.htas-link:hover .htas-logo,
-.htas-link:hover .htas-name {
-  opacity: 0.9;
-}
-
-
 /* =========================================================
    SUPPORTERS
    ========================================================= */
