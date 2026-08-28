@@ -595,7 +595,7 @@ h3 {
 
 .htas-logo {
   display: block;
-  width: min(210px, 50vw);
+  width: min(260px, 60vw);
   height: auto;
   margin: 0 auto;
   border-radius: 6px;
