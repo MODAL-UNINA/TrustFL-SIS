@@ -601,3 +601,35 @@ h3 {
     flex-direction: column;
   }
 }
+
+/* HTAS support */
+.htas-support {
+  margin: 3rem auto 2rem;
+  text-align: center;
+}
+
+.htas-support .section-label {
+  margin-bottom: 1rem;
+}
+
+.htas-link {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.htas-logo {
+  display: block;
+  width: min(420px, 85vw);
+  height: auto;
+  margin: 0 auto;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.htas-link:hover .htas-logo {
+  transform: scale(1.02);
+  opacity: 0.9;
+}
+
+.supporters-band {
+  margin-top: 2rem;
+}
