@@ -612,9 +612,9 @@ h3 {
    ========================================================= */
 
 .supporters-band {
-  max-width: 760px;
+  max-width: 820px;
   margin: 40px auto 28px;
-  padding: 28px 32px;
+  padding: 30px 36px;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.18);
   border-radius: 24px;
@@ -626,7 +626,7 @@ h3 {
 .supporters-band img {
   display: block;
   max-width: 100%;
-  max-height: 110px;
+  max-height: 125px;
   width: auto;
   height: auto;
   object-fit: contain;
