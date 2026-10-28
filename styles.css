@@ -1,3 +1,60 @@
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  color: rgba(255, 255, 255, 0.68);
+  font-size: 0.92rem;
+}
+
+
+/* =========================================================
+   TABLET / SMALL DESKTOP
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .nav-toggle {
+    display: inline-block;
+  }
+
+  .nav-links {
+    position: fixed;
+    inset: 72px 16px auto 16px;
+    display: none;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+    padding: 10px;
+    background: white;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: var(--shadow);
+  }
+
+  .nav-links.open {
+    display: flex;
+  }
+
+  .nav-links a {
+    padding: 13px 14px;
+    border-radius: 12px;
+  }
+
+  .nav-links a:hover {
+    background: var(--soft);
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-grid,
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-grid {
+    gap: 26px;
     padding-top: 58px;
   }
 
@@ -16,15 +73,14 @@
     column-count: 1;
   }
 
-  .program-heading {
-    align-items: stretch;
-    flex-direction: column;
+  .program-list div {
+    display: grid;
   }
 
-  .program-venue {
-    min-width: 0;
-    align-self: start;
+  .program-list span {
+    text-align: left;
   }
+
 }
 
 
@@ -68,63 +124,5 @@
     padding: 22px 20px;
   }
 
-  .keynote-profile {
-    grid-template-columns: 1fr;
-  }
 
-  .keynote-portrait {
-    width: 152px;
-    height: 176px;
-  }
-
-  .program-heading {
-    margin-bottom: 28px;
-  }
-
-  .program-track {
-    gap: 15px;
-  }
-
-  .program-track::before,
-  .program-event::after {
-    display: none;
-  }
-
-  .program-event {
-    grid-template-columns: 1fr;
-    gap: 6px;
-  }
-
-  .program-time {
-    padding: 0 2px;
-    text-align: left;
-    font-size: 0.94rem;
-  }
-
-  .program-time span {
-    display: inline;
-    margin-left: 3px;
-    font-size: inherit;
-  }
-
-  .program-card {
-    padding: 20px 18px;
-    border-radius: 16px;
-  }
-
-  .event-header-line {
-    align-items: flex-start;
-    flex-wrap: wrap;
-  }
-
-  .paper-item {
-    grid-template-columns: 1fr;
-    gap: 7px;
-  }
-
-  .program-footer-note {
-    margin-left: 0;
-    align-items: flex-start;
-  }
 }
-
