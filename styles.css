@@ -517,16 +517,6 @@ h3 {
   background: var(--soft-2);
 }
 
-.keynote-label {
-  display: block;
-  margin-bottom: 8px;
-  color: var(--accent-text);
-  font-size: 0.78rem;
-  font-weight: 800;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-}
-
 .keynote-profile h3 {
   margin-bottom: 4px;
   color: var(--primary);
@@ -734,11 +724,6 @@ h3 {
 }
 
 .keynote-event .event-kicker {
-  color: var(--accent-text);
-}
-
-.keynote-event .duration-chip {
-  background: rgba(40, 179, 167, 0.12);
   color: var(--accent-text);
 }
 
